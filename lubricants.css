@@ -1,0 +1,11 @@
+#header{
+	width:970px;
+	height:100px;
+	background-color:gray;
+}
+
+#content{
+	width:970px;
+	height:600px;
+	background-color:black;
+}
