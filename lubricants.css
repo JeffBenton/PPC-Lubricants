@@ -1,11 +1,26 @@
+body{
+	width:1000px;
+}
 #header{
-	width:970px;
 	height:100px;
 	background-color:gray;
 }
 
 #content{
-	width:970px;
 	height:600px;
 	background-color:black;
 }
+	#content img{
+		width:363px;
+		height:250px;
+		display:inline-block;
+		background-color:gray;
+		margin:15px 0 0 30px;
+	}
+	#content div{
+		width:563px;
+		height:250px;
+		display:inline-block;
+		background-color:yellow;
+		margin:15px 30px 0 10px;
+	}
