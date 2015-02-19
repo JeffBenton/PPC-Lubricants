@@ -2,39 +2,121 @@ body{
 	width:1000px;
 }
 #header{
-	height:100px;
-	background-color:gray;
+	height:130px;
+	background-color:#E9E9E9;
 }
+	#header img{
+		display:inline-block;
+	}
+	#header h1{
+		width:609px;
+		display:inline-block;
+		text-align:right;
+		vertical-align:bottom;
+		margin:0;
+		color:#2B2F31;
+		font-size:22px;
+		padding-bottom:12px;
+	}
+	#header ul{
+		color:red;
+		margin:0;
+		text-align:center;
+		border-top:1px solid gray;
+		padding-top:10px;
+		font-size:12px;
+		}
+		#header ul li{
+			display:inline;
+			border-left:1px solid #CBCBCB;
+			color:#6C6966;
+			padding:10px 20px 0px 20px;
+		}
+		#header ul li:last-child{
+			border-right:1px solid #CBCBCB;
+		}
 #content{
-	height:600px;
+	height:700px;
 	background-color:black;
 }
 	#about img{
 		width:363px;
-		height:250px;
+		height:270px;
 		display:inline-block;
-		background-color:gray;
+		vertical-align:top;
+		background-color:white;
 		margin:15px 0 0 30px;
+		padding:5px;
 	}
 	#about div{
-		width:563px;
-		height:250px;
+		width:553px;
+		height:280px;
 		display:inline-block;
-		background-color:yellow;
+		background-color:#6B6B69;
 		margin:15px 30px 0 10px;
+	}
+		#about div h2{
+			background-color:#FBD053;
+			margin:0;
+			padding:10px 0 10px 10px;
+			font-size:16px;
+		}
+		#about div h4, p{
+			color:white;
+			padding-left:10px;
+			margin:15px 0;
+		}
+		#about div p{
+			font-size:14px;
+		}
+		.name{
+			font-weight:bold;
+		}
+
+	#small-logo{
+		display:inline-block;
+		height:17px;
+		margin:10px 20px 0 40px;
+	}
+	h3{
+		display:inline-block;
+		color:#80845C;
+		font-weight:normal;
+		font-size:16px;
+		vertical-align:top;
+		margin:12px 0 0 0;
 	}
 
 	#departments div{
-		width:221px;
-		height:250px;
-		background-color:yellow;
+		width:213px;
+		height:300px;
+		background-color:#FFF8E6;
 		display:inline-block;
-		margin-right:15px;
+		margin:10px 15px 0 0;
+		vertical-align:top;
+		border:2px solid #0C121F;
 	}
 		#departments div:first-child{
 			margin-left:30px;
 		}
-		#departments div:last-child{
-			/*margin-right:30px;*/
-		}
-
+	.pics{
+		width:213px;
+	}
+	#departments h2{
+		padding:10px 0 10px 15px;
+		margin:0;
+		font-size:14px;
+		height:14px;
+		background-color:#F9D14E;
+		border-bottom:2px solid #0C121F;
+	}
+	#departments p{
+		color:black;
+		font-size:14px;
+		margin:10px 5px 0 5px;
+		height:90px;
+	}
+	.arrow{
+		margin:25px 0px 0px 95px;
+		vertical-align:bottom;
+	}
