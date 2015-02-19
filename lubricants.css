@@ -5,22 +5,36 @@ body{
 	height:100px;
 	background-color:gray;
 }
-
 #content{
 	height:600px;
 	background-color:black;
 }
-	#content img{
+	#about img{
 		width:363px;
 		height:250px;
 		display:inline-block;
 		background-color:gray;
 		margin:15px 0 0 30px;
 	}
-	#content div{
+	#about div{
 		width:563px;
 		height:250px;
 		display:inline-block;
 		background-color:yellow;
 		margin:15px 30px 0 10px;
 	}
+
+	#departments div{
+		width:221px;
+		height:250px;
+		background-color:yellow;
+		display:inline-block;
+		margin-right:15px;
+	}
+		#departments div:first-child{
+			margin-left:30px;
+		}
+		#departments div:last-child{
+			/*margin-right:30px;*/
+		}
+
